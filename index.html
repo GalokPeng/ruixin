@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta http-equiv="x-ua-compatible" content="ie=edge">
-	<title>solar it- HTML5 Template </title>
+	<meta id="i18n_pagename" content="index-common">
 	<meta name="description" content="">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<!-- Favicon -->
@@ -70,7 +70,18 @@
   				<div class="col-md-6">
   					<div class="top-header-social-icon">
 	  					<ul>
-	  						
+							<li>
+								<div class="lan">
+									<div class="lan1"><label class="i18n" name="lan"></label></div>
+									<div class="lan2">
+										<select id="language">
+											<option value="zh-CN">中文简体</option>
+											<option value="zh-TW">中文繁體</option>
+											<option value="en">English</option>
+										</select>
+									</div>
+								</div>
+							</li>
 	  						<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
 	  						<li><a href="#"><i class="fab fa-twitter"></i></a></li>
 	  						<li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
@@ -133,7 +144,7 @@
 					<div class="count"><h5>0</h5></div>
 				</div>
 				<div class="header-button">
-					<a href="#">Get Free Quote</a>
+					<a href="#"><label class="i18n" name="commonmsg1"></label></a>
 				</div>
 			</div>
 		</div>
@@ -1195,7 +1206,10 @@
 	<!-- progresscircle js -->	
 	<script src="static/js/progresscircle.js"></script>
 
-
+	<script src="static/js/jquery.js"></script>
+	<!-- 加载语言包文件 -->
+	<script src="static/js/i18n.js"></script>
+	<script src="static/js/language.js"></script>
 
 </body>
 </html>
