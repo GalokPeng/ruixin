@@ -63,7 +63,7 @@ var i18nLanguage = "zh-CN";
 /*
 设置一下网站支持的语言种类
  */
-var webLanguage = ['zh-CN', 'zh-TW', 'en'];
+var webLanguage = ['zh-CN', 'en'];
 
 /**
  * 执行页面i18n方法
