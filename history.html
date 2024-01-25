@@ -162,47 +162,34 @@
 <!-- Start-Mobile-Menu-->
 <!--==================================================-->
 <div class="mobile-menu-area d-sm-block d-md-block d-lg-none">
-		<div class="mobile-menu">
-			<nav class="header-menu" style="display: block;">
-				<ul class="nav_scroll">
-					<li class="menu-item-has-children"><a href="#">Home</a>
-					   <ul class="sub-menu">
-							<li><a href="index.html">Home 1</a></li>
-							<li><a href="index-2.html">Home 2</a></li>
-						</ul>
-					</li>
-					<li><a href="about.html">About</a></li>
-					<li class="menu-item-has-children"><a href="#">Pages</a>
-					   <ul class="sub-menu">
-							<li><a href="about.html">About Us</a></li>
-							<li><a href="service.html">Service</a></li>
-							<li><a href="service-details.html">Service Details </a></li>
-							<li><a href="portfolio.html">Portfolio</a></li>
-							<li><a href="portfolio-details.html">Portfolio Details</a></li>
-							<li><a href="">History</a></li>
-							<li><a href="team.html">Team</a></li>
-							<li><a href="faqs.html">Faqs</a></li>
-						</ul>
-					</li>
-					<li class="menu-item-has-children"><a href="#">shop</a>
-					   <ul class="sub-menu">
-							<li><a href="shop.html">Shop</a></li>
-							<li><a href="shop-details.html">Shop Details</a></li>
-						</ul>
-					</li>
-					<li class="menu-item-has-children"><a href="#">Blog</a>
-					   <ul class="sub-menu">
-							<li><a href="blog-grid.html">Blog Gird</a></li>
-							<li><a href="blog-list.html">Blog List</a></li>
-							<li><a href="blog-2column.html">Blog 2column</a></li>
-							<li><a href="blog-details.html">Blog Details </a></li>
-						</ul>
-					</li>
-					<li><a href="contact.html">Contact</a></li>
-				</ul>
-			</nav>
-		</div>
+	<div class="mobile-menu">
+		<nav class="header-menu" style="display: block;">
+			<ul class="nav_scroll">
+				<li class="menu-item-has-children"><a class="i18n" href="index.html" name="home" >Home</a></li>
+				<li class="menu-item-has-children"><a class="i18n" name="company" href="#">Company<i class="fas fa-caret-down"></i></a>
+					<ul class="sub-menu">
+						<li><a class="i18n" href="about.html" name="about">About</a></li>
+						<li><a class="i18n" name="service-details" href="service-details.html">Service Details </a></li>
+						<li><a class="i18n" name="portfolio" href="portfolio.html">Portfolio</a></li>
+						<li><a class="i18n" name="portfolio-details" href="portfolio-details.html">Portfolio Details</a></li>
+						<li><a class="i18n" name="faqs" href="faqs.html">Faqs</a></li>
+					</ul>
+				</li>
+				<li class="menu-item-has-children"><a class="i18n" name="service" href="service.html">Service<i class="fas fa-caret-down"></i></a>
+					<ul class="sub-menu">
+						<li><a class="i18n" name="service-details" href="service-details.html">Service Details </a></li>
+						<li><a class="i18n" name="portfolio" href="portfolio.html">Portfolio</a></li>
+						<li><a class="i18n" name="portfolio-details" href="portfolio-details.html">Portfolio Details</a></li>
+						<li><a class="i18n" name="faqs" href="faqs.html">Faqs</a></li>
+					</ul>
+				</li>
+				<li class="menu-item-has-children"><a class="i18n" name="product" href="Product.html">Product</a></li>
+
+				<li><a class="i18n" name="contact" href="contact.html">Contact</a></li>
+			</ul>
+		</nav>
 	</div>
+</div>
 <!--==================================================-->
 <!-- End-Mobile-Menu-->
 <!--==================================================-->
@@ -220,12 +207,12 @@
 			<div class="col-md-12">
 				<div class="breadcumb-content">
 					<div class="breadcumb-title">
-						<h1>Our History</h1>
+						<h1 class="i18n" name="history">Our History</h1>
 					</div>
 					<ul>
-						<li><a href="index.html">Home</a></li>
+						<li><a class="i18n" name="home" href="index.html">Home</a></li>
 						<li><i class="fas fa-angle-right"></i></li>
-						<li>History</li>
+						<li class="i18n" name="history">History</li>
 					</ul>
 				</div>
 			</div>
@@ -242,7 +229,7 @@
 <!--==================================================-->
 <!-- Start-About-section-->
 <!--==================================================-->
-<div class="about-section style-home-2">
+<!-- <div class="about-section style-home-2">
 	<div class="container">
 		<div class="row align-items-center">
 			<div class="col-lg-6 col-md-12">
@@ -295,7 +282,7 @@
 			</div>
 		</div>
 	</div>
-</div>
+</div> -->
 
 <!--==================================================-->
 <!-- End-About-section-->
@@ -311,10 +298,10 @@
 		<div class="row">
 			<div class="col-lg-6">
 				<div class="section-title">
-					<h4>our history</h4>
-					<h1>Founded by Devid Smith, Co:</h1>
-					<h1>Omio Founded in May 199</h1>
-					<h1>in Dhaka, Bangladesh</h1>
+					<h4 class="i18n" name="history">our history</h4>
+					<h1 class="i18n" name="history-page-history-title">Founded by YongFeng Liao, Co:</h1>
+					<h1 class="i18n" name="history-page-history-title-two">Revo Founded in January 2021</h1>
+					<h1 class="i18n" name="history-page-history-title-three">in DongGuan, China</h1>
 				</div>
 			</div>
 		</div>
@@ -325,9 +312,9 @@
 						<img src="static/picture/history-1.jpg" alt="">
 					</div>
 					<div class="history-content">
-						<span>04.05.2021</span>
-						<h4>Multi Project</h4>
-						<p>It was popularised in the with the release sheets more
+						<span class="i18n" name="history-page-history-content-date">04.05.2021</span>
+						<h4 class="i18n" name="history-page-history-content-title">Multi Project</h4>
+						<p class="i18n" name="history-page-history-content-desc">It was popularised in the with the release sheets more
                          recently with desktop publishing with desktop software
                          like versions with desktop publishing with</p>
 					</div>
@@ -339,9 +326,9 @@
 						<img src="static/picture/history-2.jpg" alt="">
 					</div>
 					<div class="history-content">
-						<span>04.05.2021</span>
-						<h4>Multi Project</h4>
-						<p>It was popularised in the with the release sheets more
+						<span class="i18n" name="history-page-history-content-date-two">04.05.2021</span>
+						<h4 class="i18n" name="history-page-history-content-title-two">Multi Project</h4>
+						<p class="i18n" name="history-page-history-content-desc-two">It was popularised in the with the release sheets more
                          recently with desktop publishing with desktop software
                          like versions with desktop publishing with</p>
 					</div>
@@ -353,9 +340,9 @@
 						<img src="static/picture/history-3.jpg" alt="">
 					</div>
 					<div class="history-content">
-						<span>04.05.2021</span>
-						<h4>Multi Project</h4>
-						<p>It was popularised in the with the release sheets more
+						<span class="i18n" name="history-page-history-content-date-three">04.05.2021</span>
+						<h4 class="i18n" name="history-page-history-content-title-three">Multi Project</h4>
+						<p class="i18n" name="history-page-history-content-desc-three">It was popularised in the with the release sheets more
                          recently with desktop publishing with desktop software
                          like versions with desktop publishing with</p>
 					</div>
@@ -367,9 +354,9 @@
 						<img src="static/picture/history-4.jpg" alt="">
 					</div>
 					<div class="history-content">
-						<span>04.05.2021</span>
-						<h4>Multi Project</h4>
-						<p>It was popularised in the with the release sheets more
+						<span class="i18n" name="history-page-history-content-date-four">04.05.2021</span>
+						<h4 class="i18n" name="history-page-history-content-title-four">Multi Project</h4>
+						<p class="i18n" name="history-page-history-content-desc-four">It was popularised in the with the release sheets more
                          recently with desktop publishing with desktop software
                          like versions with desktop publishing with</p>
 					</div>
