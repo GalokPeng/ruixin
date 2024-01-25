@@ -55,32 +55,41 @@
 <!--==================================================-->
 <!-- Start-Top-header-->
 <!--==================================================-->
-  <div class="top-header">
-  		<div class="container-fluid">
-  			<div class="row align-items-center">
-  				<div class="col-md-6">
-  					<div class="top-header-infor">
-  						<ul>
-  							<li><i class="fas fa-map-marker-alt"></i>1st Floor New World</li>
-  							<li><i class="fas fa-envelope"></i><a href="mailto:someone@example.com">example@example.com</a></li>
-  							<li><i class="fas fa-clock"></i>Hours: Mon-Fri: 8am – 7pm</li>
-  						</ul>
-  					</div>
-  				</div>
-  				<div class="col-md-6">
-  					<div class="top-header-social-icon">
-	  					<ul>
-	  						
-	  						<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-	  						<li><a href="#"><i class="fab fa-twitter"></i></a></li>
-	  						<li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-	  						<li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
-	  					</ul>
-	  			    </div>
-  				</div>
-  			</div>
-  		</div>
-  </div>
+<div class="top-header">
+	<div class="container-fluid">
+		<div class="row align-items-center">
+			<div class="col-md-6">
+				<div class="top-header-infor">
+					<ul>
+						<li><i class="fas fa-map-marker-alt"></i>1st Floor New World</li>
+						<li><i class="fas fa-envelope"></i><a href="mailto:info@rxesco.com">info@rxesco.com</a></li>
+						<li><i class="fas fa-clock"></i>Hours: Mon-Fri: 8am – 7pm</li>
+					</ul>
+				</div>
+			</div>
+			<div class="col-md-6">
+				<div class="top-header-social-icon">
+					<ul>
+					  <li>
+						  <div class="lan">
+							  <div class="lan2">
+								  <select id="language">
+									  <option value="zh-CN">中文简体</option>
+									  <option value="en">English</option>
+								  </select>
+							  </div>
+						  </div>
+					  </li>
+						<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+						<li><a href="#"><i class="fab fa-twitter"></i></a></li>
+						<li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+						<li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
 <!--==================================================-->
 <!-- End-Top-bar-Area -->
 <!--==================================================-->
@@ -96,46 +105,48 @@
 		<div class="row align-items-center">
 			<div class="col-lg-2">
 				<div class="header-logo">
-					<a href="index.html"><img src="static/picture/header-logo.png" alt="logo"></a>
+					<a href=""><img src="static/picture/header-logo.png" alt="logo"></a>
 				</div>
 			</div>
 			<div class="col-lg-6">
 				<div class="header-menu">
 					<ul class="nav_scroll">
-						<li class="menu-item-has-children"><a href="index.html">Home</a></li>
-						<li><a href="about.html">About</a></li>
-						<li class="menu-item-has-children"><a href="#">Company<i class="fas fa-caret-down"></i></a>
-						   <ul class="sub-menu">
-								
-								<li><a href="service.html">Service</a></li>
-								<li><a href="service-details.html">Service Details </a></li>
-								<li><a href="portfolio.html">Portfolio</a></li>
-								<li><a href="portfolio-details.html">Portfolio Details</a></li>
-								
-								
-								<li><a href="">Faqs</a></li>
+						<li class="menu-item-has-children"><a class="i18n" href="index.html" name="home" >Home</a></li>
+						<li class="menu-item-has-children"><a class="i18n" name="company" href="#">Company<i class="fas fa-caret-down"></i></a>
+							<ul class="sub-menu">
+								<li><a class="i18n" name="about" href="about.html">About</a></li>
+								<li><a class="i18n" name="team" href="team.html">Team</a></li>
+								<li><a class="i18n" name="history" href="history.html">History</a></li>
 							</ul>
 						</li>
-<li class="menu-item-has-children"><a href="Product.html">Product</a></li>
-
-						<li><a href="contact.html">Contact</a></li>
+						<li class="menu-item-has-children"><a class="i18n" name="service" href="service.html">Service<i class="fas fa-caret-down"></i></a>
+							<ul class="sub-menu">
+								<li><a class="i18n" name="service-details" href="service-details.html">Service Details </a></li>
+								<li><a class="i18n" name="portfolio" href="portfolio.html">Portfolio</a></li>
+								<li><a class="i18n" name="portfolio-details" href="portfolio-details.html">Portfolio Details</a></li>
+								<li><a class="i18n" name="faqs" href="faqs.html">Faqs</a></li>
+							</ul>
+						</li>
+						<li class="menu-item-has-children"><a class="i18n" name="product" href="Product.html">Product</a></li>
+		
+						<li><a class="i18n" name="contact" href="contact.html">Contact</a></li>
 					</ul>
 				</div>
 			</div>
-			<div class="col-lg-2 text-cendar">
+			<div class="col-lg-4 text-cendar">
 				<div class="header-contact">
-					<a href="tel:01061245741"><img src="static/picture/header-contact-icon.png" alt="icon">01061245741</a>
+					<a href="tel:+86 0769-82851359"><img src="static/picture/header-contact-icon.png" alt="icon">+86 0769-82851359</a>
 				</div>
 			</div>
-			<div class="col-lg-2 text-right">
+			<!-- <div class="col-lg-2 text-right">
 				<div class="header-cart-button">
 					<a href="#"><i class="fas fa-shopping-cart"></i></a>
 					<div class="count"><h5>0</h5></div>
 				</div>
 				<div class="header-button">
-					<a href="#">Get Free Quote</a>
+					<a href="#"><label class="i18n header-button" name="commonmsg1"></label></a>
 				</div>
-			</div>
+			</div> -->
 		</div>
 	</div>
 </div>
@@ -149,30 +160,34 @@
 <!-- Start-Mobile-Menu-->
 <!--==================================================-->
 <div class="mobile-menu-area d-sm-block d-md-block d-lg-none">
-		<div class="mobile-menu">
-			<nav class="header-menu" style="display: block;">
-				<ul class="nav_scroll">
-					<li class="menu-item-has-children"><a href="index.html">Home</a></li>
-					<li><a href="about.html">About</a></li>
-					<li class="menu-item-has-children"><a href="#">Company<i class="fas fa-caret-down"></i></a>
-					   <ul class="sub-menu">
-							
-							<li><a href="service.html">Service</a></li>
-							<li><a href="service-details.html">Service Details </a></li>
-							<li><a href="portfolio.html">Portfolio</a></li>
-							<li><a href="portfolio-details.html">Portfolio Details</a></li>
-							
-							
-							<li><a href="">Faqs</a></li>
-						</ul>
-					</li>
-<li class="menu-item-has-children"><a href="Product.html">Product</a></li>
+	<div class="mobile-menu">
+		<nav class="header-menu" style="display: block;">
+			<ul class="nav_scroll">
+				<li class="menu-item-has-children"><a class="i18n" href="index.html" name="home" >Home</a></li>
+				<li class="menu-item-has-children"><a class="i18n" name="company" href="#">Company<i class="fas fa-caret-down"></i></a>
+					<ul class="sub-menu">
+						<li><a class="i18n" href="about.html" name="about">About</a></li>
+						<li><a class="i18n" name="service-details" href="service-details.html">Service Details </a></li>
+						<li><a class="i18n" name="portfolio" href="portfolio.html">Portfolio</a></li>
+						<li><a class="i18n" name="portfolio-details" href="portfolio-details.html">Portfolio Details</a></li>
+						<li><a class="i18n" name="faqs" href="faqs.html">Faqs</a></li>
+					</ul>
+				</li>
+				<li class="menu-item-has-children"><a class="i18n" name="service" href="service.html">Service<i class="fas fa-caret-down"></i></a>
+					<ul class="sub-menu">
+						<li><a class="i18n" name="service-details" href="service-details.html">Service Details </a></li>
+						<li><a class="i18n" name="portfolio" href="portfolio.html">Portfolio</a></li>
+						<li><a class="i18n" name="portfolio-details" href="portfolio-details.html">Portfolio Details</a></li>
+						<li><a class="i18n" name="faqs" href="faqs.html">Faqs</a></li>
+					</ul>
+				</li>
+				<li class="menu-item-has-children"><a class="i18n" name="product" href="Product.html">Product</a></li>
 
-					<li><a href="contact.html">Contact</a></li>
-				</ul>
-			</nav>
-		</div>
+				<li><a class="i18n" name="contact" href="contact.html">Contact</a></li>
+			</ul>
+		</nav>
 	</div>
+</div>
 <!--==================================================-->
 <!-- End-Mobile-Menu-->
 <!--==================================================-->
@@ -193,9 +208,9 @@
 						<h1>Faqs</h1>
 					</div>
 					<ul>
-						<li><a href="index.html">Home</a></li>
+						<li><a class="i18n" name="home" href="index.html">Home</a></li>
 						<li><i class="fas fa-angle-right"></i></li>
-						<li>Faqs</li>
+						<li class="i18n" name="faqs">Faqs</li>
 					</ul>
 				</div>
 			</div>
@@ -217,8 +232,8 @@
 		<div class="row">
 			<div class="col-md-12 text-center">
 				<div class="section-title">
-					<h1>Popular Questions</h1>
-				 <p class="center">No two projects are remotely the same. We tailor our services and teams to meet your project goals and
+					<h1 class="i18n" name="faqs-page-popular-questions">Popular Questions</h1>
+				 <p class="center i18n" name="faqs-page-paragraph">No two projects are remotely the same. We tailor our services and teams to meet your project goals and
                     budget, providing the highest level of service in the most efficient manner.</p>
 				</div>
 			</div>
@@ -228,24 +243,24 @@
 				<div id="tab1" class="tab_content">
 				    <ul class="accordion">
 				        <li>
-				            <a><span>1. Leberkas tempor ground round id qui boudin officia? </span></a>
-				            <p>Fermentum eget arcu diam porttitor sit lacus. tempor aliquam lectus offer ultrices viverra mauris vel erat. Viverra nulla dui netus accumsan risu quam id faucibus vivamus potenti proin nisl.</p>
+				            <a><span class="i18n" name="faqs-page-question-one">1. Leberkas tempor ground round id qui boudin officia? </span></a>
+				            <p class="i18n" name="faqs-page-answer-one">Fermentum eget arcu diam porttitor sit lacus. tempor aliquam lectus offer ultrices viverra mauris vel erat. Viverra nulla dui netus accumsan risu quam id faucibus vivamus potenti proin nisl.</p>
 				        </li>
 				        <li>
-				            <a><span> 2. Bresaola culpa lorem exercitation kielbasa labore? </span></a>
-				            <p>Fermentum eget arcu diam porttitor sit lacus. tempor aliquam lectus offer ultrices viverra mauris vel erat. Viverra nulla dui netus accumsan risu quam id faucibus vivamus potenti proin nisl.</p>
+				            <a><span class="i18n" name="faqs-page-question-two"> 2. Bresaola culpa lorem exercitation kielbasa labore? </span></a>
+				            <p class="i18n" name="faqs-page-answer-two">Fermentum eget arcu diam porttitor sit lacus. tempor aliquam lectus offer ultrices viverra mauris vel erat. Viverra nulla dui netus accumsan risu quam id faucibus vivamus potenti proin nisl.</p>
 				        </li>
 				        <li>
-				            <a><span> 3. What forms of payment do you accept? </span></a>
-				            <p>Fermentum eget arcu diam porttitor sit lacus. tempor aliquam lectus offer ultrices viverra mauris vel erat. Viverra nulla dui netus accumsan risu quam id faucibus vivamus potenti proin nisl.</p>
+				            <a><span class="i18n" name="faqs-page-question-three"> 3. What forms of payment do you accept? </span></a>
+				            <p class="i18n" name="faqs-page-answer-three">Fermentum eget arcu diam porttitor sit lacus. tempor aliquam lectus offer ultrices viverra mauris vel erat. Viverra nulla dui netus accumsan risu quam id faucibus vivamus potenti proin nisl.</p>
 				        </li>
 				        <li>
-				            <a><span> 4. How do I sign up for the free trial? </span></a>
-				            <p>Fermentum eget arcu diam porttitor sit lacus. tempor aliquam lectus offer ultrices viverra mauris vel erat. Viverra nulla dui netus accumsan risu quam id faucibus vivamus potenti proin nisl.</p>
+				            <a><span class="i18n" name="faqs-page-question-four"> 4. How do I sign up for the free trial? </span></a>
+				            <p class="i18n" name="faqs-page-answer-four">Fermentum eget arcu diam porttitor sit lacus. tempor aliquam lectus offer ultrices viverra mauris vel erat. Viverra nulla dui netus accumsan risu quam id faucibus vivamus potenti proin nisl.</p>
 				        </li>
 				        <li>
-				            <a><span> 5. How do I sign up for the free trial? </span></a>
-				            <p>Fermentum eget arcu diam porttitor sit lacus. tempor aliquam lectus offer ultrices viverra mauris vel erat. Viverra nulla dui netus accumsan risu quam id faucibus vivamus potenti proin nisl.</p>
+				            <a><span class="i18n" name="faqs-page-question-five"> 5. How do I sign up for the free trial? </span></a>
+				            <p class="i18n" name="faqs-page-answer-five">Fermentum eget arcu diam porttitor sit lacus. tempor aliquam lectus offer ultrices viverra mauris vel erat. Viverra nulla dui netus accumsan risu quam id faucibus vivamus potenti proin nisl.</p>
 				        </li>
 				    </ul>
 				</div>
@@ -254,24 +269,24 @@
 				<div id="tab1" class="tab_content">
 				    <ul class="accordion">
 				        <li>
-				            <a><span>6. Which products are excluded from the returns policy? </span></a>
-				            <p>Fermentum eget arcu diam porttitor sit lacus. tempor aliquam lectus offer ultrices viverra mauris vel erat. Viverra nulla dui netus accumsan risu quam id faucibus vivamus potenti proin nisl.</p>
+				            <a><span class="i18n" name="faqs-page-question-six">6. Which products are excluded from the returns policy? </span></a>
+				            <p class="i18n" name="faqs-page-answer-six">Fermentum eget arcu diam porttitor sit lacus. tempor aliquam lectus offer ultrices viverra mauris vel erat. Viverra nulla dui netus accumsan risu quam id faucibus vivamus potenti proin nisl.</p>
 				        </li>
 				        <li>
-				            <a><span>7. Holisticly predominate extensible testing reliable ?</span></a>
-				            <p>Fermentum eget arcu diam porttitor sit lacus. tempor aliquam lectus offer ultrices viverra mauris vel erat. Viverra nulla dui netus accumsan risu quam id faucibus vivamus potenti proin nisl.</p>
+				            <a><span class="i18n" name="faqs-page-question-seven">7. Holisticly predominate extensible testing reliable ?</span></a>
+				            <p class="i18n" name="faqs-page-answer-seven">Fermentum eget arcu diam porttitor sit lacus. tempor aliquam lectus offer ultrices viverra mauris vel erat. Viverra nulla dui netus accumsan risu quam id faucibus vivamus potenti proin nisl.</p>
 				        </li>
 				        <li>
-				            <a><span>8. How can I start accepting business </span></a>
-				            <p>Fermentum eget arcu diam porttitor sit lacus. tempor aliquam lectus offer ultrices viverra mauris vel erat. Viverra nulla dui netus accumsan risu quam id faucibus vivamus potenti proin nisl.</p>
+				            <a><span class="i18n" name="faqs-page-question-eight">8. How can I start accepting business </span></a>
+				            <p class="i18n" name="faqs-page-answer-eight">Fermentum eget arcu diam porttitor sit lacus. tempor aliquam lectus offer ultrices viverra mauris vel erat. Viverra nulla dui netus accumsan risu quam id faucibus vivamus potenti proin nisl.</p>
 				        </li>
 				        <li>
-				            <a><span>9. Andouille alcatra ea leberkas laboris ball?</span></a>
-				            <p>Fermentum eget arcu diam porttitor sit lacus. tempor aliquam lectus offer ultrices viverra mauris vel erat. Viverra nulla dui netus accumsan risu quam id faucibus vivamus potenti proin nisl.</p>
+				            <a><span class="i18n" name="faqs-page-question-nine">9. Andouille alcatra ea leberkas laboris ball?</span></a>
+				            <p class="i18n" name="faqs-page-answer-nine">Fermentum eget arcu diam porttitor sit lacus. tempor aliquam lectus offer ultrices viverra mauris vel erat. Viverra nulla dui netus accumsan risu quam id faucibus vivamus potenti proin nisl.</p>
 				        </li>
 				        <li>
-				            <a><span>10. How do I sign up for the free trial? </span></a>
-				            <p>Fermentum eget arcu diam porttitor sit lacus. tempor aliquam lectus offer ultrices viverra mauris vel erat. Viverra nulla dui netus accumsan risu quam id faucibus vivamus potenti proin nisl.</p>
+				            <a><span class="i18n" name="faqs-page-question-ten">10. How do I sign up for the free trial? </span></a>
+				            <p class="i18n" name="faqs-page-answer-ten">Fermentum eget arcu diam porttitor sit lacus. tempor aliquam lectus offer ultrices viverra mauris vel erat. Viverra nulla dui netus accumsan risu quam id faucibus vivamus potenti proin nisl.</p>
 				        </li>
 				    </ul>
 				</div>
@@ -465,6 +480,10 @@
 	<!-- progresscircle js -->	
 	<script src="static/js/progresscircle.js"></script>
 
+	<script src="static/js/jquery.js"></script>
+	<!-- 加载语言包文件 -->
+	<script src="static/js/i18n.js"></script>
+	<script src="static/js/language.js"></script>
 
 </body></html>
 
