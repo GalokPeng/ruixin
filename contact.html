@@ -118,6 +118,7 @@
 								<li><a class="i18n" name="about" href="about.html">About</a></li>
 								<li><a class="i18n" name="team" href="team.html">Team</a></li>
 								<li><a class="i18n" name="history" href="history.html">History</a></li>
+								<li><a class="i18n" name="blog-grid" href="blog-grid.html">blog-grid</a></li>
 							</ul>
 						</li>
 						<li class="menu-item-has-children"><a class="i18n" name="service" href="#">Service<i class="fas fa-caret-down"></i></a>
@@ -168,11 +169,10 @@
 				<li class="menu-item-has-children"><a class="i18n" href="index.html" name="home" >Home</a></li>
 				<li class="menu-item-has-children"><a class="i18n" name="company" href="#">Company<i class="fas fa-caret-down"></i></a>
 					<ul class="sub-menu">
-						<li><a class="i18n" href="about.html" name="about">About</a></li>
-						<li><a class="i18n" name="service-details" href="service-details.html">Service Details </a></li>
-						<li><a class="i18n" name="portfolio" href="portfolio.html">Portfolio</a></li>
-						<li><a class="i18n" name="portfolio-details" href="portfolio-details.html">Portfolio Details</a></li>
-						<li><a class="i18n" name="faqs" href="faqs.html">Faqs</a></li>
+						<li><a class="i18n" name="about" href="about.html">About</a></li>
+						<li><a class="i18n" name="team" href="team.html">Team</a></li>
+						<li><a class="i18n" name="history" href="history.html">History</a></li>
+						<li><a class="i18n" name="blog-grid" href="blog-grid.html">blog-grid</a></li>
 					</ul>
 				</li>
 				<li class="menu-item-has-children"><a class="i18n" name="service" href="#">Service<i class="fas fa-caret-down"></i></a>
@@ -333,8 +333,19 @@
 							</div>
 						</div>
 					</form> -->
-					<iframe src="https://app.crisp.chat/website/72f0b646-73ec-4032-80e2-df95695faa25/inbox/" style="width: 300px; height: 400px; border: none;"></iframe>
-					<div id="status"></div>
+					<div id="crisp-container">
+						<script type="text/javascript">
+							window.$crisp=[];
+							window.CRISP_WEBSITE_ID="72f0b646-73ec-4032-80e2-df95695faa25";
+							(function(){
+							d=document;
+							s=d.createElement("script");
+							s.src="https://client.crisp.chat/l.js";
+							s.async=1;
+							d.getElementsByTagName("head")[0].appendChild(s);
+							})();
+						</script>
+					</div>					  
 				</div>
 			</div>
 			<div class="col-lg-6 col-md-12">
